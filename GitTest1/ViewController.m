@@ -26,4 +26,8 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)Test1:(id)sender {
+    
+    NSLog(@"Hello Git Test 1");
+}
 @end

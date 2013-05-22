@@ -18,6 +18,7 @@
 		6922045B174CC70300502119 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6922045A174CC70300502119 /* Default-568h@2x.png */; };
 		6922045E174CC70300502119 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6922045C174CC70300502119 /* MainStoryboard.storyboard */; };
 		69220461174CC70300502119 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 69220460174CC70300502119 /* ViewController.m */; };
+		69220469174CC7B400502119 /* ClassA.m in Sources */ = {isa = PBXBuildFile; fileRef = 69220468174CC7B400502119 /* ClassA.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +38,8 @@
 		6922045D174CC70300502119 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		6922045F174CC70300502119 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		69220460174CC70300502119 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		69220467174CC7B400502119 /* ClassA.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClassA.h; sourceTree = "<group>"; };
+		69220468174CC7B400502119 /* ClassA.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClassA.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +91,8 @@
 				6922045C174CC70300502119 /* MainStoryboard.storyboard */,
 				6922045F174CC70300502119 /* ViewController.h */,
 				69220460174CC70300502119 /* ViewController.m */,
+				69220467174CC7B400502119 /* ClassA.h */,
+				69220468174CC7B400502119 /* ClassA.m */,
 				6922044B174CC70300502119 /* Supporting Files */,
 			);
 			path = GitTest1;
@@ -176,6 +181,7 @@
 				69220451174CC70300502119 /* main.m in Sources */,
 				69220455174CC70300502119 /* AppDelegate.m in Sources */,
 				69220461174CC70300502119 /* ViewController.m in Sources */,
+				69220469174CC7B400502119 /* ClassA.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
